@@ -24,7 +24,7 @@ public class ConsoleApp {
         int opcion;
 
         while (!salir) {
-
+            System.out.println("Sistema del Ministerio de Deportes");
             System.out.println("1. Ingresar cantidad de deportes para el Ministerio");
             System.out.println("2. Datos de Especialista asignado");
             System.out.println("3. Adicionar deportes");
@@ -32,8 +32,6 @@ public class ConsoleApp {
             System.out.println("5. Listar deportes con balón");
             System.out.println("6. Listar Deportistas");
             System.out.println("7. Salir");
-
-            System.out.println("Sistema del Ministerio de Deportes");
 
             try {
                 System.out.println("Seleccione una de las opciones");
@@ -84,6 +82,7 @@ public class ConsoleApp {
                             System.out.println(" El Nombre es: " + d.getNombre() + " Su edad es de: "+d.getEdad());
 
                         }
+                        System.out.println("----------------------------");
                         break;
                     case 7:
                         salir = true;
